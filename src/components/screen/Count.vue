@@ -14,6 +14,15 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import { NRow, NCol, NStatistic } from 'naive-ui'
+
+export default defineComponent({
+  components: {
+    NRow,
+    NCol,
+    NStatistic
+  }
+})
 </script>
 <style scoped>
 .n-statistic {
