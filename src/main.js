@@ -35,4 +35,6 @@ app.use(naive)
 app.use(pinia)
 app.use(ElementPlus) //将 ElementPlus 插件注册到 Vue 应用中
 app.use(router)
+app.use(THREE)
+app.use(VANTA)
 app.mount('#app')
