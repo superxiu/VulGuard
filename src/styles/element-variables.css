@@ -1,0 +1,30 @@
+@charset "UTF-8";
+:root {
+  --el-color-primary: #4E74F5; /* 主按钮颜色 */
+  --el-color-success: #28a745; /* 成功按钮颜色 */
+  --el-color-info: #7393fa; /* 信息按钮颜色 */
+  --el-button-default-bg-color: var(--el-color-primary);
+  --el-button-default-border-color: var(--el-color-primary);
+  --el-button-default-hover-bg-color: #7393fa;
+  --el-button-default-hover-border-color: #7393fa;
+  --el-button-primary-bg-color: var(--el-color-primary);
+  --el-button-primary-border-color: var(--el-color-primary);
+  --el-button-primary-hover-bg-color: #7393fa;
+  --el-button-primary-hover-border-color: #7393fa;
+  --el-button-success-bg-color: var(--el-color-success);
+  --el-button-success-border-color: var(--el-color-success);
+  --el-button-success-hover-bg-color: darken(var(--el-color-success), 10%);
+  --el-button-success-hover-border-color: darken(var(--el-color-success), 10%);
+  --el-button-warning-bg-color: var(--el-color-warning);
+  --el-button-warning-border-color: var(--el-color-warning);
+  --el-button-warning-hover-bg-color: darken(var(--el-color-warning), 10%);
+  --el-button-warning-hover-border-color: darken(var(--el-color-warning), 10%);
+  --el-button-danger-bg-color: var(--el-color-danger);
+  --el-button-danger-border-color: var(--el-color-danger);
+  --el-button-danger-hover-bg-color: darken(var(--el-color-danger), 10%);
+  --el-button-danger-hover-border-color: darken(var(--el-color-danger), 10%);
+  --el-button-info-bg-color: var(--el-color-info);
+  --el-button-info-border-color: var(--el-color-info);
+  --el-button-info-hover-bg-color: darken(var(--el-color-info), 10%);
+  --el-button-info-hover-border-color: darken(var(--el-color-info), 10%);
+}/*# sourceMappingURL=element-variables.css.map */

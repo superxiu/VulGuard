@@ -1,0 +1,19 @@
+{
+    "back": "返回",
+    "vulnerability_details": "漏洞详情",
+    "description": "描述",
+    "solution": "解决方案",
+    "see_also": "另请参见",
+    "score": "评分",
+    "cvss3_base_score": "CVSS3 基础评分",
+    "cvss3_temporal_score": "CVSS3 临时评分",
+    "cvss_base_score": "CVSS 基础评分",
+    "cvss_temporal_score": "CVSS 临时评分",
+    "details": "细节",
+    "family_name": "家族名称",
+    "plugin_modification_date": "插件修改日期",
+    "plugin_publication_date": "插件发布日期",
+    "plugin_type": "插件类型",
+    "risk_factor": "风险因素"
+  }
+  

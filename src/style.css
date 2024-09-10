@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'RZZY';
+    src: url('@/assets/fonts/ruizizhenyanti.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'outfit';
+    src: url('@/assets/fonts/outfit.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'emblemaone';
+    src: url('@/assets/fonts/emblemaone.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'JBT';
+    src: url('@/assets/fonts/DingTalk JinBuTi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'KKSJT';
+    src: url('@/assets/fonts/kuaikanshijieti.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'XYGHT';
+    src: url('@/assets/fonts/xinyiguanheiti.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'HCYHT';
+    src: url('@/assets/fonts/HanChanYuanHei_Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #EFF4FE;
+}
+.custom-loading .el-loading-text {
+    font-family: 'outfit', sans-serif; /* 自定义字体 */
+    font-size: 20px; /* 自定义字体大小 */
+    color: #409EFF; /* 自定义字体颜色 */
+}
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+}
+/* ::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-radius: 4px;
+    width: 1px;
+} */
+::-webkit-scrollbar-thumb {
+    background: #859ff4;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4E74F5;
+}
+
+.title-with-line,.title-without-line {
+    position: relative;
+    padding-left: 15px;
+    color: #2e5df5; 
+    background-color: #e6ebfc;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family: 'HCYHT';
+    font-size: 18px;
+  }
+  
+.title-with-line::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 100%;
+    background-color: #4E74F5; /* 设置竖线颜色 */
+}
+
+.title-with-line-1 {
+    position: relative;
+    padding-left: 15px;
+    font-family: 'HCYHT';
+    font-size: 18px;
+    /* color: #2e5df5;  */
+    /* background-color: #e6ebfc; */
+    /* padding-top:5px;
+    padding-bottom:5px; */
+  }
+  
+.title-with-line-1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 80%;
+    background-color: #4E74F5; /* 设置竖线颜色 */
+}
+.el-icon--left {
+    padding-right: 1px;
+    color: rgba(78, 116, 245, 0.63);
+}
+  
+.back-link {
+    color: rgba(78, 116, 245, 0.63) !important; 
+    cursor: pointer;
+}
+.wider-button{
+    width: 100px;
+}

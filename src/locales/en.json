@@ -1,0 +1,19 @@
+{
+    "back": "Back",
+    "vulnerability_details": "Vulnerability Details",
+    "description": "Description",
+    "solution": "Solution",
+    "see_also": "See Also",
+    "score": "Score",
+    "cvss3_base_score": "CVSS3 Base Score",
+    "cvss3_temporal_score": "CVSS3 Temporal Score",
+    "cvss_base_score": "CVSS Base Score",
+    "cvss_temporal_score": "CVSS Temporal Score",
+    "details": "Details",
+    "family_name": "Family Name",
+    "plugin_modification_date": "Plugin Modification Date",
+    "plugin_publication_date": "Plugin Publication Date",
+    "plugin_type": "Plugin Type",
+    "risk_factor": "Risk Factor"
+  }
+  
