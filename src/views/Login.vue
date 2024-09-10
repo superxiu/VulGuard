@@ -33,6 +33,8 @@ import { ElNotification } from 'element-plus';
 import { useRouter } from 'vue-router';  
 import axios from '@/axios';  // 引入 axios 实例
 import { useUserStore } from '@/stores/userStore';  // 导入 user store
+import NET from 'vanta/dist/vanta.net.min'; // 引入Vanta.NET
+  
 const apiUrl = import.meta.env.VITE_API_URL;
 // 构建请求的完整URL
 const login_url = `${apiUrl}/user/login`;
@@ -46,19 +48,21 @@ const loginForm = ref({
 });
 let vantaEffect = null;  // 用于存储 Vanta.js 效果的变量
 
+const loginBackground = ref(null);
+
 onMounted(() => {
-  if (VANTA) {
-    vantaEffect = VANTA.NET({
-      el: "#login-background",
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 200.00,
-        minWidth: 200.00,
-        scale: 1.00,
-        scaleMobile: 1.00,
-        color: 0x4E74F5,
-        backgroundColor: 0x000000
+  if (loginBackground.value) {
+    vantaEffect = NET({
+      el: loginBackground.value,
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x4E74F5,
+      backgroundColor: 0x000000
     });
   }
 });
