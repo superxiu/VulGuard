@@ -15,7 +15,7 @@ import i18n from './i18n';
 import './styles/element-variables.scss' // 引入自定义样式
 import 'magic.css/dist/magic.min.css'; // 引入 Magic.css
 import * as THREE from '../public/js/three.min.js';
-import VANTA from '../public/js/vanta.net.min.js';
+import { VANTA } from '../public/js/vanta.net.min.js';
 
 const pinia = createPinia()
 
