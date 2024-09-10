@@ -33,7 +33,7 @@ import { ElNotification } from 'element-plus';
 import { useRouter } from 'vue-router';  
 import axios from '@/axios';  // 引入 axios 实例
 import { useUserStore } from '@/stores/userStore';  // 导入 user store
-import NET from 'vanta/dist/vanta.net.min'; // 引入Vanta.NET
+import NET from '../../public/js/vanta.net.min.js'; // 引入Vanta.NET
   
 const apiUrl = import.meta.env.VITE_API_URL;
 // 构建请求的完整URL
