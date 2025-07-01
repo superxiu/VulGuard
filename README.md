@@ -26,7 +26,7 @@
 ## 界面展示
 
 ### 登录界面
-![登录界面](https://example.com/login.png)
+![登录界面](docs/screenshots/login.png)
 *使用Vanta.js实现三维背景效果，提升科技感*
 
 ### 仪表盘
