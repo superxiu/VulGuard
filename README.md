@@ -70,27 +70,6 @@ npm run serve
 npm run build
 ```
 
-## 项目结构
-
-```
-src/
-├── assets/        # 静态资源
-├── components/    # 通用组件
-├── views/         # 页面组件
-│   ├── dashboard/ # 仪表盘相关
-│   ├── scan/      # 漏洞扫描相关
-│   ├── protection/ # 设备防护相关
-│   └── assessment/ # 安全性评估相关
-├── router/        # 路由配置
-├── store/         # 状态管理
-├── utils/         # 工具函数
-└── main.js        # 入口文件
-```
-
-## 接口文档
-
-项目后端API接口详情请参考：[API文档](https://github.com/superxiu/VulGuard/blob/main/docs/api.md)
-
 ## 参与贡献
 
 1. Fork 本仓库
@@ -99,10 +78,6 @@ src/
 4. 推送到分支 (`git push origin feature/amazing-feature`)
 5. 打开Pull Request
 
-
-## 许可证
-
-本项目采用MIT许可证 - 详见[LICENSE](LICENSE)文件
 
 ## 联系方式
 
