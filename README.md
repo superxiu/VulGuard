@@ -17,7 +17,7 @@
 ## 技术栈
 
 - **前端框架**：Vue.js
-- **UI组件**：Element UI
+- **UI组件**：Element Plus
 - **可视化库**：ECharts、DataV
 - **三维效果**：Vanta.js
 - **构建工具**：Vite
