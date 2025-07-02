@@ -58,13 +58,13 @@
 git clone https://github.com/superxiu/VulGuard.git
 
 # 进入项目目录
-cd anxintanyun-frontend
+cd VulGuard
 
 # 安装依赖
 npm install
 
 # 本地开发环境启动
-npm run serve
+npm run dev
 
 # 构建生产版本
 npm run build
