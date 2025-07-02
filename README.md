@@ -30,19 +30,19 @@
 *使用Vanta.js实现三维背景效果，提升科技感*
 
 ### 仪表盘
-![仪表盘](https://example.com/dashboard.png)
+![仪表盘](docs/screenshots/dashboard.png)
 *整合关键安全指标，直观展示系统安全状态*
 
 ### 可视化大屏
-![可视化大屏](https://example.com/screen.png)
+![可视化大屏](docs/screenshots/screen.png)
 *全链路安全态势监控，支持多维度数据展示*
 
 ### 漏洞扫描
-![漏洞扫描](https://example.com/vulnerability.png)
+![漏洞扫描](docs/screenshots/vulnerability_scan1.png)
 *支持多目标批量扫描与漏洞详情查看*
 
 ### 设备防护验证
-![设备防护验证](https://example.com/protection.png)
+![设备防护验证](docs/screenshots/protection_verfication1.png)
 *防护设备配置与防护效果对比分析*
 
 ## 快速开始
