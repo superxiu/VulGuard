@@ -25,6 +25,9 @@
 
 ## 界面展示
 
+### 首页界面
+![首页界面](docs/screenshots/home.png)
+
 ### 登录界面
 ![登录界面](docs/screenshots/login.png)
 *使用Vanta.js实现三维背景效果，提升科技感*
@@ -39,10 +42,18 @@
 
 ### 漏洞扫描
 ![漏洞扫描](docs/screenshots/vulnerability_scan1.png)
+![漏洞扫描](docs/screenshots/vulnerability_scan2.png)
+![漏洞扫描](docs/screenshots/vulnerability_scan3.png)
+![漏洞扫描](docs/screenshots/vulnerability_scan4.png)
 *支持多目标批量扫描与漏洞详情查看*
 
 ### 设备防护验证
 ![设备防护验证](docs/screenshots/protection_verfication1.png)
+![设备防护验证](docs/screenshots/提交防护.png)
+![设备防护验证](docs/screenshots/防护前后结果.png)
+![设备防护验证](docs/screenshots/评估报告_1.png)
+![设备防护验证](docs/screenshots/评估报告_2.png)
+![设备防护验证](docs/screenshots/评估报告_3.png)
 *防护设备配置与防护效果对比分析*
 
 ## 快速开始
